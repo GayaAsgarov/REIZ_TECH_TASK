@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.app {
+    padding: 40px 5px;
+}
+
+.table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 85%;
+}
+
+.table-container table thead {
+    background-color: #000;
+    color: #fff;
+}
+
+.table-container table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container table th, td {
+    text-align: center;
+    padding: 16px;
+}
+
+@media screen and (max-width: 600px) {
+    .table-container table {
+        width: 98%;
+    }
+}

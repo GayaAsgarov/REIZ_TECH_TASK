@@ -1,0 +1,49 @@
+.filters {
+    width: 85%;
+    margin: 0 auto 20px;
+}
+
+.filters h4 {
+    margin-bottom: 10px;
+}
+
+.filters .sorting-btns {
+    margin-bottom: 20px;
+}
+
+.filters .sorting-btns button {
+    border: 1px solid rgb(8, 154, 154);
+    color: rgb(8, 154, 154);
+    font-weight: bold;
+    background: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.filters .sorting-btns button:hover {
+    background-color: rgb(8, 154, 154);
+    color: #fff;
+}
+
+.filters .sorting-btns button.active-sorting-btn {
+    background-color: rgb(8, 154, 154);
+    color: #fff;
+}
+
+.filters .filter-btns div {
+    margin-bottom: 10px;
+}
+
+.filters .filter-btns div input {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.filters .filter-btns div label {
+    margin-left: 10px;
+    cursor: pointer;
+}
